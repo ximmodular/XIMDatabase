@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'XIMDatabase_Example' do
+  pod 'XIMDatabase', :path => '../'
+
+  target 'XIMDatabase_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
