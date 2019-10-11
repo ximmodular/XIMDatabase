@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		036834BF23507789002DA1E0 /* StockTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036834BC23507789002DA1E0 /* StockTable.swift */; };
+		036834C023507789002DA1E0 /* StockCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036834BD23507789002DA1E0 /* StockCenter.swift */; };
+		036834C123507789002DA1E0 /* StockRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036834BE23507789002DA1E0 /* StockRecord.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -28,7 +31,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5396583E43DABADCA6217B40 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		036834BC23507789002DA1E0 /* StockTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StockTable.swift; sourceTree = "<group>"; };
+		036834BD23507789002DA1E0 /* StockCenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StockCenter.swift; sourceTree = "<group>"; };
+		036834BE23507789002DA1E0 /* StockRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StockRecord.swift; sourceTree = "<group>"; };
+		5396583E43DABADCA6217B40 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* XIMDatabase_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XIMDatabase_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -42,9 +48,9 @@
 		7635E7C2A12E7857B9E66778 /* Pods-XIMDatabase_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XIMDatabase_Tests.debug.xcconfig"; path = "Target Support Files/Pods-XIMDatabase_Tests/Pods-XIMDatabase_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		8AE10A9F53BD8DDE96423722 /* Pods-XIMDatabase_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XIMDatabase_Example.release.xcconfig"; path = "Target Support Files/Pods-XIMDatabase_Example/Pods-XIMDatabase_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A1896FBAD68180016F7133AA /* Pods-XIMDatabase_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XIMDatabase_Tests.release.xcconfig"; path = "Target Support Files/Pods-XIMDatabase_Tests/Pods-XIMDatabase_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		B73E3EAF6B2A5B4208D2D49C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B73E3EAF6B2A5B4208D2D49C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C93F390D7468431B4D2C9820 /* Pods_XIMDatabase_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XIMDatabase_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D00404E116C86E4CF0BB8E2A /* XIMDatabase.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = XIMDatabase.podspec; path = ../XIMDatabase.podspec; sourceTree = "<group>"; };
+		D00404E116C86E4CF0BB8E2A /* XIMDatabase.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XIMDatabase.podspec; path = ../XIMDatabase.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		DF0E1CA5BC26F980957F03B3 /* Pods-XIMDatabase_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XIMDatabase_Example.debug.xcconfig"; path = "Target Support Files/Pods-XIMDatabase_Example/Pods-XIMDatabase_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		DFF92C66CFFAD1B55F6D06A2 /* Pods_XIMDatabase_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XIMDatabase_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -69,6 +75,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		036834BB23507776002DA1E0 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				036834BD23507789002DA1E0 /* StockCenter.swift */,
+				036834BE23507789002DA1E0 /* StockRecord.swift */,
+				036834BC23507789002DA1E0 /* StockTable.swift */,
+			);
+			name = Example;
+			sourceTree = "<group>";
+		};
 		5EEFECC81DAE228A79E7E179 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -77,7 +93,6 @@
 				7635E7C2A12E7857B9E66778 /* Pods-XIMDatabase_Tests.debug.xcconfig */,
 				A1896FBAD68180016F7133AA /* Pods-XIMDatabase_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -106,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
+				036834BB23507776002DA1E0 /* Example */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
@@ -227,6 +243,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -291,10 +308,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-XIMDatabase_Example/Pods-XIMDatabase_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
 				"${BUILT_PRODUCTS_DIR}/XIMDatabase/XIMDatabase.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XIMDatabase.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -332,6 +351,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				036834C023507789002DA1E0 /* StockCenter.swift in Sources */,
+				036834C123507789002DA1E0 /* StockRecord.swift in Sources */,
+				036834BF23507789002DA1E0 /* StockTable.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

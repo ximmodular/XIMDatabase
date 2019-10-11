@@ -1,0 +1,27 @@
+{
+  "name": "XIMDatabase",
+  "version": "0.1.0",
+  "summary": "A short description of XIMDatabase.",
+  "description": "a database",
+  "homepage": "https://github.com/ximmodular/XIMDBPodLib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "xiaofengmin": "281016974@qq.com"
+  },
+  "source": {
+    "git": "git@github.com:ximmodular/XIMDBPodLib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "XIMDatabase/Classes/**/*",
+  "dependencies": {
+    "FMDB": [
+
+    ]
+  }
+}

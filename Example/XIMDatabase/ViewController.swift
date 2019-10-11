@@ -7,11 +7,14 @@
 //
 
 import UIKit
+import XIMDatabase
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        let sc = StockCenter.init()
+        sc.insertDemo()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
